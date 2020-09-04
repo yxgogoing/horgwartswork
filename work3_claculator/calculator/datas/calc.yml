@@ -1,0 +1,49 @@
+add_correct:
+  add_datas_correct:
+    - [1, 1, 2]
+    - [100, 200, 300]
+    - [0, 0, 0]
+    - [-1, -2, -3]
+    - [0.1, 0.2, 0.3]
+
+  add_myids_correct:
+    - '整数'
+    - '大数'
+    - '为零'
+    - '负数'
+    - '小数'
+
+add_mistake:
+  add_mistake_datas:
+    - [-1, 0, 1]
+    - [-1, 1, 1]
+
+  add_mistake_ids:
+    - "异常-除数为零"
+    - "除法-错误的用例"
+
+div_correct:
+  div_datas_correct:
+    - [0, 1, 0]
+    - [-1, -1, 1]
+    - [0.3, 0.1, 3]
+    - [999, 111, 9]
+    - [2, 1, 2]
+
+  div_ids_correct:
+    - "除数为零"
+    - "负数相除"
+    - "小数相除"
+    - "大数相除"
+    - "整数相除"
+
+div_mistake:
+  div_datas_mistake:
+    - [-1, 0, 1]
+    - [-1, 1, 1]
+
+  div_ids_mistake:
+    - "异常-被除数为零"
+    - "除法-错误的用例"
+
+
